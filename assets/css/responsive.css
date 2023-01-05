@@ -18,9 +18,13 @@
     left: unset;
     transform: unset;
         background-color: var(--primary);
-        padding: 30px 50px;
+        padding: 30px 30px;
         width: 100%;
        margin-bottom: 50px;
+       margin-top: 50px;
        
+    }
+    .form-col{
+        padding: 0px 15px !important;
     }
 }

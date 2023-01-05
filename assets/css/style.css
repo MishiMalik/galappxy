@@ -3,7 +3,8 @@ body{
     font-family: 'Nunito', sans-serif;
 }
 :root{
-    --primary:#9F1541;
+    /* --primary:#9F1541; */
+    --primary:#09486d;
 }
 .logo{
     height: 80px;
@@ -28,7 +29,7 @@ body{
     color: var(--primary) !important;
 }
 .sign-up{
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.5)),url('../images/439751.jpg');
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.5)),url('../images/wp2062757.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
