@@ -44,4 +44,10 @@
     .modal-dialog{
         max-width: 100%;
       }
+      .code-active-input{
+        width: 60px;
+        height: 80px;
+        font-size: 40px !important;
+        text-align: center;
+      }
 }

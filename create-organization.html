@@ -32,8 +32,8 @@
                                     <input type="file"  accept="image" name="image" id="file" onchange="loadwallpaper(event)" style="display: none;">
                                 </p>
 
-                                <button class="w-100 mb-3 py-2  border-0" type="file">
-                                    <label for="file"  style="cursor: pointer;" class="button">Upload Logo</label>
+                                <button class="w-100 mb-3 py-2  border-0"type="button" >
+                                    <label for="file"    style="cursor: pointer;" class="button">Upload Logo</label>
                                 </button>
                             </div>
                         </div>
@@ -287,12 +287,7 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <script src="assets/app.js"></script>
-    <script>
-        var loadwallpaper = function (event) {
-            var image = document.getElementById('wallpaper-output');
-            image.src = URL.createObjectURL(event.target.files[0]);
-        };
-    </script>
+  
 </body>
 
 </html>

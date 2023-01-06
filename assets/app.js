@@ -1,8 +1,8 @@
 // ================================================img preview
-// var loadwallpaper = function (event) {
-//     var image = document.getElementById('wallpaper-output');
-//     image.src = URL.createObjectURL(event.target.files[0]);
-// };
+var loadwallpaper = function (event) {
+    var image = document.getElementById('wallpaper-output');
+    image.src = URL.createObjectURL(event.target.files[0]);
+};
 
 // =====================================css select
 
