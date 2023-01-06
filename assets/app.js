@@ -148,3 +148,12 @@ var x = setInterval(function () {
         document.getElementById("launch").innerHTML = "EXPIRED";
     }
 }, 1000);
+
+
+
+// ========================================================================loader
+const myTimeout = setTimeout(loader, 3000);
+
+function loader() {
+  document.getElementById("loader").style.display = "none"
+}
