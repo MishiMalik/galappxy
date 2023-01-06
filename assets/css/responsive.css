@@ -30,6 +30,14 @@
     .modal-dialog{
         max-width: 60%;
       }
+      
+.form{
+    min-height: fit-content;
+    
+  }
+  .form-col{
+  min-height: fit-content;
+  }
 }
 @media only screen and (max-width:569px){
   
