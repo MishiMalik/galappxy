@@ -1,3 +1,11 @@
+// ================================================img preview
+// var loadwallpaper = function (event) {
+//     var image = document.getElementById('wallpaper-output');
+//     image.src = URL.createObjectURL(event.target.files[0]);
+// };
+
+// =====================================css select
+
 var x, i, j, l, ll, selElmnt, a, b, c;
 /* Look for any elements with the class "custom-select": */
 x = document.getElementsByClassName("custom-select");
@@ -157,3 +165,5 @@ const myTimeout = setTimeout(loader, 3000);
 function loader() {
   document.getElementById("loader").style.display = "none"
 }
+
+
